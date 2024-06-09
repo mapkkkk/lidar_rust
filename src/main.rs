@@ -1,6 +1,6 @@
 use std::sync::{Arc, Mutex};
 use std::thread;
-use std::f64::consts::PI;
+// use std::f64::consts::PI;
 use std::time::{Instant, Duration};
 use std::collections::HashMap;
 use serialport::prelude::*;
