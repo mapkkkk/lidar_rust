@@ -683,3 +683,8 @@ impl Radar {
         );
     }
 }
+
+fn main() {
+    let mut radar = Radar::new();
+    radar.start("/dev/ttyUSB0".to_string(), "LD06".to_string());
+}
